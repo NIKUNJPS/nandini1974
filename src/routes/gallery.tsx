@@ -16,8 +16,36 @@ import kids from "@/assets/kids-collection.jpg";
 import newborn from "@/assets/newborn-collection.jpg";
 import festive from "@/assets/festive-collection.jpg";
 import arrivals from "@/assets/new-arrivals.jpg";
+import photo1 from "@/assets/store-photos/store-photo-1.jpg";
+import photo2 from "@/assets/store-photos/store-photo-2.jpg";
+import photo3 from "@/assets/store-photos/store-photo-3.jpg";
+import photo4 from "@/assets/store-photos/store-photo-4.jpg";
+import photo5 from "@/assets/store-photos/store-photo-5.jpg";
+import photo6 from "@/assets/store-photos/store-photo-6.jpg";
+import photo7 from "@/assets/store-photos/store-photo-7.jpg";
+import photo8 from "@/assets/store-photos/store-photo-8.jpg";
 
 const images: LightboxImage[] = [
+  {
+    src: photo8,
+    alt: "Nandini Stores shopfront lit up in the evening",
+    caption: "Our store at night",
+  },
+  { src: photo3, alt: "Customers being served at the counter", caption: "Serving our customers" },
+  {
+    src: photo4,
+    alt: "Long aisle of display counters inside the store",
+    caption: "Inside the store",
+  },
+  {
+    src: photo1,
+    alt: "Shelves stacked with clothing behind the counter",
+    caption: "Fully stocked shelves",
+  },
+  { src: photo7, alt: "Glass display counters along the store aisle", caption: "Display counters" },
+  { src: photo5, alt: "Store aisle with menswear displays", caption: "Menswear section" },
+  { src: photo2, alt: "Counter and stacked clothing racks", caption: "Our collection racks" },
+  { src: photo6, alt: "Staff at the display counters", caption: "Our friendly staff" },
   { src: storeFront, alt: "The Nandini Stores shopfront", caption: "Our store" },
   { src: womens, alt: "Women's fashion", caption: "Women's collection" },
   { src: storeInside, alt: "Inside Nandini Stores", caption: "Inside the store" },
